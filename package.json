@@ -1,0 +1,25 @@
+{
+  "name": "js-git-actions",
+  "version": "1.0.0",
+  "description": "demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-js-git-actions"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "chenko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "supertest": "^6.3.4"
+  }
+}
